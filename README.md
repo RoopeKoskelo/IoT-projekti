@@ -1,6 +1,6 @@
 # IoT Projekti
 
-*insert alkuteksti here*
+#### Ryhmätyö: Roope, Leo, David
 
 ### 12.9.2022 Projektin suunnitelma
 
