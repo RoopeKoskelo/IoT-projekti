@@ -18,4 +18,13 @@ Toiselta koneelta ei päästä sivulle vielä.
 
 Raspbissa on nyt PIR-anturi kiinni jo.
 
-### 15.9.2022 asdasd to be continued
+### 13-19.9.2022 
+olin kipeenä
+
+### 20.9.2022
+Katsottiin läpi raspberry pi:n terminaalikomentoja.
+
+### 21.9.2022
+Tehdään käyttöliittymää Python kielellä Tkinterin avulla. Saimme tekstikentän ja napit toimimaan, sain myös tehtyä "Self Destruct" napin joka sulkee scriptin nappia painaessa.
+
+Teimme värinvaihtonapit, jotta saat vaihdettua teeman tummaksi tai vaaleaksi. Lisäsimme samalla resoluution vaihtomahdollisuuden, mutta se toimii slidereilla.
