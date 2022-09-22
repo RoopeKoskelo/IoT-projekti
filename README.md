@@ -28,3 +28,46 @@ Katsottiin läpi raspberry pi:n terminaalikomentoja.
 Tehdään käyttöliittymää Python kielellä Tkinterin avulla. Saimme tekstikentän ja napit toimimaan, sain myös tehtyä "Self Destruct" napin joka sulkee scriptin nappia painaessa.
 
 Tein myös värinvaihtonapit, jotta saat vaihdettua teeman tummaksi tai vaaleaksi.
+
+### 22.9.2022 Testit
+#### 1. Tietokannat
+a) Tietokantoja on DAVID_LIIKE, LAHTI, LEO_LIIKE, LIIKE, information_schema, mysql, performance_schema, komennolla show databases;
+
+b) Taulun tiedot löytyvät komennolla describe <taulukon nimi>.   komennot menivät SHOW databases; -> USE <tietokannan nimi> -> SHOW tables; -> SELECT * FROM <taulukon nimi> -> DESCRIBE <taulukon nimi>
+  
+#### 2. String- ja muuttujaharjoitus
+a)
+  ```
+  import time
+  import datetime
+  import mariadb
+  import RPi.GPIO as GPIO
+  
+  InputPin = 4
+  
+  GPIO.setmode(GPIO.BCM)
+  GPIO.setup(4, GPIO.IN)
+  
+  
+  conn = mariadb.connect(user="root", password="kissa123", host="localhost", database="LIIKE")
+  cur = conn.cursor()
+  
+  
+  try:
+      while True:
+           arvo = GPIO.input(InputPin)    # tekee inputin arvosta muuttujan
+  
+           sqlStr = (f"INSERT INTO liike_tbl(arvo, aika) VALUES ({arvo}, now())")   # muutettu f-stringiksi
+
+           time.sleep(5)
+           cur.execute(sqlStr)
+           conn.commit()
+  except:
+      print("ei toimi :(")
+      print(arvo)
+  
+  conn.close
+  ```
+#### 3. DHT11
+  
+  
