@@ -27,4 +27,4 @@ Katsottiin läpi raspberry pi:n terminaalikomentoja.
 ### 21.9.2022
 Tehdään käyttöliittymää Python kielellä Tkinterin avulla. Saimme tekstikentän ja napit toimimaan, sain myös tehtyä "Self Destruct" napin joka sulkee scriptin nappia painaessa.
 
-Teimme värinvaihtonapit, jotta saat vaihdettua teeman tummaksi tai vaaleaksi. Lisäsimme samalla resoluution vaihtomahdollisuuden, mutta se toimii slidereilla.
+Tein myös värinvaihtonapit, jotta saat vaihdettua teeman tummaksi tai vaaleaksi.
