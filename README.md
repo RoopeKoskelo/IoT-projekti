@@ -68,6 +68,12 @@ a)
   
   conn.close
   ```
-#### 3. DHT11
-  
+#### 26.9.2022 3. DHT11
+  Sain DHT11 anturin toimimaan käyttämällä samaa koodia kuin ylempänä näkyy, koska huomasin että vikana ei ollut oma koodi vaan rikkinäinen anturi.
+
+Katsoimme myös läpi HTML perusteita ja aloimme tekemään raspberrylle omaa sivua.
+
+### 27.9.2022
+Jatkamme HTML perusteita.
+
   
