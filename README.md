@@ -78,5 +78,5 @@ Jatkamme HTML perusteita.
 
 ### 29.9.2022
 Käymme tänään läpi PHP:tä, muutin aamulla tietokantaa ja koodia siten, että saan lämpöanturilta tietokantaan lämpötilan ja kosteuden tiedon.
-
+Sain koodin lähettämään tiedot sivulle taulukkoon, python koodi ja sivun pohja löytyvät myös tästä repositorysta.
   
