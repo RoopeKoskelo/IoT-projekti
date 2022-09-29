@@ -76,4 +76,7 @@ Katsoimme myös läpi HTML perusteita ja aloimme tekemään raspberrylle omaa si
 ### 27.9.2022
 Jatkamme HTML perusteita.
 
+### 29.9.2022
+Käymme tänään läpi PHP:tä, muutin aamulla tietokantaa ja koodia siten, että saan lämpöanturilta tietokantaan lämpötilan ja kosteuden tiedon.
+
   
