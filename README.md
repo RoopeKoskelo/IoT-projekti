@@ -82,3 +82,5 @@ Sain koodin lähettämään tiedot sivulle taulukkoon, python koodi ja sivun poh
   
 ### 3.10.2022
 Asensimme koneille MySQL Workbenchin, jotta voi tehdä sivua ilman raspbia, mutta itse teen sivun suoraan raspberrylle.
+Läppärillä on nyt asennettuna PHP-palvelin, joka toimii myös hyvin. Raspberryllä sivu toimii, ongelmana vain Google Chartsin toiminta.
+Azuressa myös läppärille tietokanta.
