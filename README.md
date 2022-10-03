@@ -78,5 +78,7 @@ Jatkamme HTML perusteita.
 
 ### 29.9.2022
 Käymme tänään läpi PHP:tä, muutin aamulla tietokantaa ja koodia siten, että saan lämpöanturilta tietokantaan lämpötilan ja kosteuden tiedon.
-Sain koodin lähettämään tiedot sivulle taulukkoon, python koodi ja sivun pohja löytyvät myös tästä repositorysta.
+Sain koodin lähettämään tiedot sivulle taulukkoon, python koodi ja sivun pohja löytyvät myös tästä repositorysta "DHT11_ROOPE" kansiosta.
   
+### 3.10.2022
+Asensimme koneille MySQL Workbenchin, jotta voi tehdä sivua ilman raspbia, mutta itse teen sivun suoraan raspberrylle.
