@@ -86,4 +86,4 @@ Asensimme koneille MySQL Workbenchin, jotta voi tehdä sivua ilman raspbia, mutt
 Läppärillä on nyt asennettuna PHP-palvelin, joka toimii myös hyvin. Raspberryllä sivu toimii, ongelmana vain Google Chartsin toiminta.
 Azuressa myös läppärille tietokanta.
 ### 13.10.2022 
-Tein tänään lämpöanturi sivulle keskustelupalstan, siirsin samalla kaikki tiedostot externaliksi, koko tiedosto löytyy reposta nimellä roope_lämpö.
+Tein tänään lämpöanturi-sivulle keskustelupalstan, siirsin samalla kaikki tiedostot externaliksi, koko tiedosto löytyy reposta nimellä roope_lämpö.
