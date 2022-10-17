@@ -31,6 +31,7 @@ Tein myös värinvaihtonapit, jotta saat vaihdettua teeman tummaksi tai vaaleaks
 
 ### 22.9.2022 Testit
 #### 1. Tietokannat
+Saat tehtyä PHP-palvelimelle tietokannan komennoilla CREATE DATABASE (nimi) -> USE DATABASE [nimi] -> CREATE TABLE [nimi2] (table asetukset)
 a) Tietokantoja on DAVID_LIIKE, LAHTI, LEO_LIIKE, LIIKE, information_schema, mysql, performance_schema, komennolla show databases;
 
 b) Taulun tiedot löytyvät komennolla describe <taulukon nimi>.   komennot menivät SHOW databases; -> USE <tietokannan nimi> -> SHOW tables; -> SELECT * FROM <taulukon nimi> -> DESCRIBE <taulukon nimi>
