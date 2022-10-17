@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <?php
-      $databaseHost = "localhost";
-      $databaseUsername = "root";
-      $databasePassword = "kissa123";
-      $databaseName = "ROOPE_DHT11";
+      $databaseHost = "[hostname]";
+      $databaseUsername = "[username]";
+      $databasePassword = "[password]";
+      $databaseName = "[databasename]";
       
       $conn = new mysqli($databaseHost, $databaseUsername, $databasePassword, $databaseName);
       if($conn->connect_error){
